@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
-import "./Menu.css";
+import "./menu.css";
 
 const menuLinks = [
     { path: "/", label: "Home" },
