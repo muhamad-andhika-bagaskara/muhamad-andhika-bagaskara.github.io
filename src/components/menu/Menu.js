@@ -20,7 +20,7 @@ const Menu = () => {
     return <ul>
         {menuLinks.map(({ path, label }, index) => (
             <li key={index}>
-                <a href={`/${version}${path}`}>
+                <a href={`${path}`}>
                     {label}
                 </a>
             </li>
